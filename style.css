@@ -50,11 +50,6 @@ h1 {
   box-sizing: border-box;
 }
 
-html {
-  color-scheme: dark;
-}
-
-
 .snow-toggle {
   display: flex;
   flex-direction: row;
