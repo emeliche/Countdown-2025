@@ -19,12 +19,13 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 1px;
   text-align: center;
 }
 
 .countdown-container {
+  margin-top: 15px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -32,7 +33,7 @@ h1 {
 }
 
 .big-text {
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 1;
   margin: 0 2rem;
 }
