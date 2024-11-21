@@ -1,51 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1491002052546-bf38f186af56?q=80&w=1808&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: top;
-    min-height: 100vh;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 50px;
-
-} 
+  background-image: url(https://images.unsplash.com/photo-1491002052546-bf38f186af56?q=80&w=1808&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 50px;
+}
 
 h1 {
-    font-size: 4rem;
-    letter-spacing: 1px;   
+  font-size: 4rem;
+  letter-spacing: 1px;
 }
 
 .countdown-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .big-text {
-    font-size: 5rem;
-    line-height: 1;
-    margin: 0 2rem;
+  font-size: 5rem;
+  line-height: 1;
+  margin: 0 2rem;
 }
 
 .countdown-el {
-    text-align: center;
+  text-align: center;
 }
 
 .countdown-el span {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -79,7 +80,7 @@ h1 {
   top: calc(50% - 12px);
   width: 25px;
   height: 25px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 50%;
 }
 
@@ -91,15 +92,15 @@ h1 {
 }
 
 .snow-toggle__control:focus + .snow-toggle__text::before {
-  border-color: #C56FFF;
+  border-color: #c56fff;
 }
 
 .snow-toggle__control:checked + .snow-toggle__text::before {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   background: radial-gradient(
     circle,
-    #FFFFFF 0%,
-    #FFFFFF 40%,
+    #ffffff 0%,
+    #ffffff 40%,
     transparent 50%,
     transparent 100%
   );
